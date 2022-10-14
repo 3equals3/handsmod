@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "otherhands",
+  "version": "0.4",
+
+  "name": "Other Hands",
+  "description": "A simple mod that changes old hand animations to new ones. Also fixed the holding of some items in the hand",
+  "authors": [
+    "3equals3"
+  ],
+  "contact": {
+    "homepage": "https://github.com/3equals3"
+  },
+
+  "license": "MIT",
+  "icon": "assets/otherhands/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.equals.anims.OtherHands"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
