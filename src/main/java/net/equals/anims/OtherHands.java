@@ -12,6 +12,6 @@ public class OtherHands implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Rust animations mod launched!");
+		LOGGER.info("Animations mod launched!");
 	}
 }
